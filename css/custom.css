@@ -1132,7 +1132,7 @@ header#header {
 }
 /* Navigation Menu Style */
 .navbar-nav > li > a {
-	padding: 33px 16px;
+	padding: 33px 12px;
 	font-weight: 600;
 	color: #1f1f2f;
 	position: relative;
