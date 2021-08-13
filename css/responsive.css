@@ -371,7 +371,8 @@
 }
 
 .navbar-nav > li > a {
-	padding: 33px 9px;
+	/* padding: 33px 9px; */
+	padding: 33px 6px;
 }
 
 .top-left ul li .info {

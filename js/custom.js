@@ -462,7 +462,7 @@ $(function() {
   /*countdown-clock Js Start*/
   function countdown_clock() {
     $('.countdown-clock').downCount({
-      date: '03/04/2022 11:39:00',
+      date: '09/01/2021 10:00:00',
           offset: +10
       }, 
       function () {
