@@ -558,7 +558,7 @@
             </div>
           </div>
           <div class="main-form">
-            <form action="http://oxobikes.info/html/ Oxobikes/rod001/contact-form-handler.php" method="POST" name="contactform">
+            <form id="submit-form"  name="contactform">
               <div class="row">
                 <div class="col-md-4 mb-30">
                   <input type="text" required placeholder="Name" name="name">
@@ -742,6 +742,27 @@
     <script src="js/jquery.magnific-popup.js"></script> 
     <script src="js/owl.carousel.min.js"></script>  
     <script src="js/custom.js"></script>
+    
+    <!-- gform ajax -->
+	<script>
+		$("#submit-form").submit((e)=>{
+			e.preventDefault()
+			$.ajax({
+				url:"https://script.google.com/macros/s/AKfycbzEd8lykuWwm5B1YmbCYbRI3nOJQ-vIc9L9HZZ4Ko-J07IBgtjUp5zKDVCGxCxe1vU0Pg/exec",
+				data:$("#submit-form").serialize(),
+				method:"post",
+				success:function (response){
+					alert("Your message has been submitted successfully, Thank you")
+					window.location.reload()
+					//window.location.href="https://google.com"
+				},
+				error:function (err){
+					alert("Something Error")
+	
+				}
+			})
+		})
+	</script>
   </body>
 
 </html>
