@@ -758,7 +758,7 @@ _______________________________________________________*/
 /* - Header Style  //---------------- */
 
 .header-top {
-  background: #FFD700;
+  background: #000000;
 }
 
 .header-top.mobile {
@@ -1815,7 +1815,7 @@ _______________________________________________________*/
   position: relative;
 }
 .banner-detail .banner-detail-inner .banner-title {
-  color: #1097ffc2;
+  color: #f6d800;
   font-size: 35px;
   font-weight: 600;
   line-height: 40px;
@@ -1830,7 +1830,7 @@ _______________________________________________________*/
 }
 
 .banner-detail .sub-title {
-  color: #1097ffc2;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
 }
