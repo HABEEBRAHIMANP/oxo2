@@ -1344,7 +1344,7 @@ header#header {
 .megamenu .level2 > a {
 	position: relative;
 	margin-bottom: 2px;
-	color: #FFD700;
+	color: #48a173;
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: none;
@@ -2517,7 +2517,7 @@ h2.main_title {
 }
 
 .header-top.mobile {
-	background: #FFD700;
+	background: #48a173;
     display: block;
     margin-bottom: 65px;
     padding: 0;
